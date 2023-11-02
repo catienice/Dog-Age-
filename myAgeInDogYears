@@ -1,0 +1,21 @@
+// I am 28 years old
+const myAge = 28;
+
+// The first two years of a dog's life count as 10.5 dog years
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// laterYears is every year after the first two years
+let laterYears = myAge - 2;
+
+// Every year in laterYears equals 4 dog years 
+laterYears *= 4;
+
+// My age in dog years
+let myAgeInDogYears = laterYears + earlyYears;
+
+// My name is catie
+let myName = 'Catie'.toLowerCase();
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years
+ which is ${myAgeInDogYears} in dong years.`)
